@@ -1,0 +1,76 @@
+
+
+1. problems I encounterd and How I solved them?
+
+
+I had bug while collecting links from the homepage ( it stored some dupliacte links)
+I resolved the error using set()  data type.
+-----------------------------------------------------------------------------------------------------------------------
+For separting internal and external links i couldn't not find a proper library
+Finally, I extracted the domain name from the url and used a simple if...else condition to find external and internal links
+-----------------------------------------------------------------------------------------------------------------------
+Few links took longer time to respond or had restricted access
+I use try,except block to resolve it
+-----------------------------------------------------------------------------------------------------------------------
+
+2. Programming Idoms I learned/used?
+
+	->beautifulSoup
+	->requests
+	->re
+	->nltk
+	->urllib
+
+-----------------------------------------------------------------------------------------------------------------------
+
+3. why did you make a certain decision? what were the options?
+
+To web scrap the data from the web i had to choose between BeautifulSoup , Scrapy , Selenium
+I choose BeautifulSoup over others since it was user friendly and i need a genric script to scrap the data from all sites
+------------------------------------------------------------------------------------------------------------------------
+while adding meta_data to csv i had to decide which content supposed to be add
+I went name="DESC" since most of the webites included that tag and it breifs content in the website
+------------------------------------------------------------------------------------------------------------------------
+
+4. what did I learn?
+
+I was new to web scraping , learned a lot about web scraping
+and also discovered that scraping sometimes can be illegal (depends on what we goona do with that data)
+To know the accepted operation we need to look into weblink/robots.txt file  (weblink = any webpage link)
+
+Learned how to process text data , which can also be used in data cleaning in NLP
+
+reviewed concepts in HTML/CSS
+
+Learned and Implemented few packages nltk,bs4
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+5. A summary of the experience of the coding challenge?
+
+
+I'm starting my challenge at ( 11:00 PM - 30/10/2020).
+Previously I've attended a few hackathons 
+which is mostly around 24-36 hours.
+This is quite different from my previous hackathons
+I had almost 60 hours to complete my challenge.
+And most importantly I've done this all alone
+The Internet is my only friend.
+
+Intially it took some time to learn the jist of web scraping and with the help of beautiful soup
+frame work i saved a lot of time (without writing the function from scratch) and stored 
+the retrived files in .txt and .csv format.
+
+it is my biggest automation script ever written.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
